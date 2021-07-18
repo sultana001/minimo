@@ -1,0 +1,261 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;
+*/
+
+
+/*common area start*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #626262;
+}
+
+
+/*common area end*/
+/*header area start*/
+header{
+    padding: 25px 0px;
+
+}
+.wraper{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.logo{
+    margin-top: 10px;
+    float: left;
+    width: 12%;
+    
+    
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    float:right;
+    width: 70%;
+  
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    margin: 0 50px;
+    font-size: 16px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 4px;
+    display: inline-block;
+    border-bottom:1px solid transparent ;
+    
+}
+.menu ul li:last-child a{
+     margin-right: 0;
+}
+.menu ul li a:hover{
+        border-bottom:1px solid #626262 ;
+}
+/*header area end*/
+/*banner area start*/
+.banner img{
+    width: 100%;
+}
+/*banner area end*/
+
+/*about us area start*/
+.about{
+    padding: 70px 0;
+}
+.wrapper2{
+    margin: 0 auto;
+    width: 80%;
+
+    overflow: hidden;
+}
+
+.c-light{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight:300;
+    color:#b4ad9e ;
+    text-transform: uppercase;
+
+}
+.c-h1{
+    margin-top:20px ;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight:400;
+}
+.c-p{
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.mt-35{
+    margin-top: 35px;
+}
+
+
+
+/*about us area end*/
+/*blog area start*/
+.blog{
+    padding-top: 10px;
+    padding-bottom: 70px;
+   
+}
+.single{
+    margin-top: 60px;
+    width: 47%;
+    float: left;
+}
+.single:nth-child(even){
+ margin-left: 6%;
+}
+.single img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/*blog area end*/
+/*news area start*/
+.news{
+    background-color: #f0f0f0;
+    padding:70px 0 ;
+}
+.signup{
+    text-align: center;
+}
+
+.title{
+     color: #333333;
+     margin-top: 0;
+     margin-bottom: 70px;
+}
+.s-form{
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+
+}
+.s-form input{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size:14px;
+    width:350px;
+    height: 45px;
+    border: none;
+    border-bottom:1px solid #626262;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.s-form input:focus{
+    outline: 0;
+}
+.s-form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s-form button:focus{
+    outline: 0;
+}
+.s-form button img{
+    
+}
+
+/*news area end*/
+/*load area start*/
+.load{
+    padding: 70px 0;
+    text-align: center;
+}
+.load Button{
+    width: 160px;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #626262;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    transition: 1s;
+    
+}
+.load Button:hover{
+    color: #fff;   
+    background-color: #626262;
+}
+.load Button:focus{
+    outline:none;
+}
+/*load area end*/
+/*footer area start*/
+footer{ background-color: #f0f0f0;
+    padding-bottom: 30px;
+    padding-top: 25px;
+
+}
+.terms{
+    float: left;
+    width: 24%;
+
+}
+.terms ul{
+    overflow: hidden;
+    padding-left:0 ;
+}
+.terms ul li {
+    float: left;
+    list-style: none;
+}
+.terms ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 0 15px;
+    color: #000000;
+}
+.terms ul li:first-child a{
+    padding-left: 0;
+}
+.social{
+    float:right;
+    width: 30%;
+    
+}
+.social ul{
+    float:right;
+}
+.social ul li{
+    float: left;
+    list-style: none;
+}
+.social ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 0 15px;
+}
+.social ul li:last-child a{
+    padding-right: 0px;
+}
+/*footer area end*/
